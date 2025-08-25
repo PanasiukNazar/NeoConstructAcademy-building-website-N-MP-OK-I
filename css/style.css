@@ -1,15 +1,15 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2878eb;
-    --secondary: #f14d5d;
+    --primary: #ce4a7eff;
+    --secondary: #1C1C1BFF;
     --light: #ecf4ff;
     --dark: #120f2d;
 }
 
-[class^='flaticon-']:before,
-[class*=' flaticon-']:before,
-[class^='flaticon-']:after,
-[class*=' flaticon-']:after {
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
     font-size: inherit;
     margin-left: 0;
 }
@@ -33,7 +33,7 @@ h6,
 }
 
 .btn {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight: 600;
     transition: 0.5s;
 }
@@ -87,7 +87,7 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     position: relative;
     margin-left: 30px;
     padding: 30px 0;
@@ -110,7 +110,7 @@ h6,
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-link::before {
         position: absolute;
-        content: '';
+        content: "";
         width: 0;
         height: 5px;
         bottom: 0;
@@ -194,7 +194,7 @@ h6,
 
 .service-item div::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 0;
     height: 100%;
     top: 0;
@@ -274,7 +274,7 @@ h6,
 
 .blog-date::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 0;
     height: 0;
     top: -25px;
@@ -285,7 +285,7 @@ h6,
 }
 
 /* Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 @media (max-width: 700px) {
     .cookie-wrapper {
@@ -315,12 +315,12 @@ h6,
     display: none;
 }
 header i {
-    color: #2878eb;
+    color: #ce4a7eff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #2878eb;
+    color: #ce4a7eff;
     font-weight: 500;
     text-align: center;
 }
@@ -328,7 +328,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #2878eb;
+    color: #ce4a7eff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -340,10 +340,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #2878eb;
+    border: 2px solid #ce4a7eff;
     color: #fff;
     padding: 8px 0;
-    background: #2878eb;
+    background: #ce4a7eff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -352,14 +352,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #2878eb;
+    color: #ce4a7eff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #2878eb;
+    color: #ce4a7eff;
 }
 #declineBtn:hover {
-    background-color: #2878eb;
+    background-color: #ce4a7eff;
     color: #fff;
 }
 /* Footer Style */
